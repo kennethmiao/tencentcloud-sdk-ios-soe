@@ -174,7 +174,7 @@ secretKey属于安全敏感参数，线上版本一般由业务后台生成[临�
 * TAIMathCorrectionRet参数说明
 
 | 参数|类型|说明 |
-|---|---|---|---|
+|---|---|---|
 |sessionId|NSString|一次批改唯一标识|
 |formula|NSString|算式|
 |items|NSArray<TAIMathCorrectionItem *>|算式结果|
@@ -183,7 +183,7 @@ secretKey属于安全敏感参数，线上版本一般由业务后台生成[临�
 * TAIMathCorrectionItem参数说明
 
 | 参数|类型|说明 |
-|---|---|---|---|
+|---|---|---|
 |result|BOOL|算式结果|
 |rect|CGRect|算式坐标|
 |formula|NSString|算式字符串|
@@ -207,7 +207,7 @@ secretKey属于安全敏感参数，线上版本一般由业务后台生成[临�
 * TAIOralEvaluationData参数说明
 
 | 参数|类型|说明 |
-|---|---|---|---|
+|---|---|---|
 |seqId|NSInteger|分片序列号|
 |bEnd|BOOL|是否最后一个分片|
 |audio|NSData|音频数据|
@@ -215,7 +215,7 @@ secretKey属于安全敏感参数，线上版本一般由业务后台生成[临�
 * TAIMathCorrectionRet参数说明
 
 | 参数|类型|说明 |
-|---|---|---|---|
+|---|---|---|
 |sessionId|NSString|一次批改唯一标识|
 |pronAccuracy|float|发音精准度，取值范围[-1, 100]，当取-1时指完全不匹配|
 |pronFluency|float|发音流利度，取值范围[0, 1]，当为词模式时，取值无意义|
@@ -227,7 +227,7 @@ secretKey属于安全敏感参数，线上版本一般由业务后台生成[临�
 * TAIOralEvaluationWord参数说明
 
 | 参数|类型|说明 |
-|---|---|---|---|
+|---|---|---|
 |beginTime|int|当前单词语音起始时间点，单位为ms|
 |endTime|int|当前单词语音终止时间点，单位为ms|
 |pronAccuracy|float|单词发音准确度，取值范围[-1, 100]，当取-1时指完全不匹配|
